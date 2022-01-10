@@ -11,6 +11,7 @@ import android.widget.Toast
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // To load layput file actiity_main which contains views
         setContentView(R.layout.activity_main)
 
         val rollButton: Button = findViewById(R.id.button)
